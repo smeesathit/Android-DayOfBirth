@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ทายนิสัยตามวันเกิด</string>
+    <string name="dateHint">วว-ดด-ปปปป</string>
+    <string name="dateLabel">วันเดือนปีเกิด</string>
+    <string name="predictButton">ทำนาย</string>
+    <string name="dateError">กรุณากรอกวันเดือนปีเกิด!</string>
+</resources>

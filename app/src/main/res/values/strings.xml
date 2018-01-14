@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DayOfBirth</string>
+    <string name="dateLabel">Date of birth</string>
+    <string name="dateHint">dd-mm-yyyy</string>
+    <string name="predictButton">Predict</string>
+    <string name="dateError">Please enter birth date!</string>
+</resources>
