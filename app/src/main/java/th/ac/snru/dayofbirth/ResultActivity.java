@@ -47,25 +47,32 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
             switch (dayOfBirth) {
                 // SUNDAY = 1, MONDAY = 2 , ...
                 case Calendar.SUNDAY :
-                    predictionText.setText("SUNDAY");
+//                    predictionText.setText("SUNDAY");
+                    predictionText.setText(R.string.sunday);
                     break;
                 case Calendar.MONDAY :
-                    predictionText.setText("MONDAY");
+//                    predictionText.setText("MONDAY");
+                    predictionText.setText(R.string.monday);
                     break;
                 case Calendar.TUESDAY :
-                    predictionText.setText("TUESDAY");
+//                    predictionText.setText("TUESDAY");
+                    predictionText.setText(R.string.tuesday);
                     break;
                 case Calendar.WEDNESDAY :
-                    predictionText.setText("WEDNESDAY");
+//                    predictionText.setText("WEDNESDAY");
+                    predictionText.setText(R.string.wednesday);
                     break;
                 case Calendar.THURSDAY :
-                    predictionText.setText("THURSDAY");
+//                    predictionText.setText("THURSDAY");
+                    predictionText.setText(R.string.thursday);
                     break;
                 case Calendar.FRIDAY :
-                    predictionText.setText("FRIDAY");
+//                    predictionText.setText("FRIDAY");
+                    predictionText.setText(R.string.friday);
                     break;
                 case Calendar.SATURDAY :
-                    predictionText.setText("SATURDAY");
+//                    predictionText.setText("SATURDAY");
+                    predictionText.setText(R.string.saturday);
                     break;
             }
 
