@@ -6,4 +6,8 @@
     <string name="predictButton">ทำนาย</string>
     <string name="dateError">กรุณากรอกวันเดือนปีเกิด!</string>
     <string name="backButton">กลับ</string>
+    <string name="predictionHeader">คำทำนาย</string>
+    <string name="monday">จันทร์</string>
+    <string name="tuesday">อังคาร</string>
+    <string name="dowLabel">คุณเกิดวัน</string>
 </resources>

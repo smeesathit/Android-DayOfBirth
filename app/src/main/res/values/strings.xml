@@ -5,4 +5,8 @@
     <string name="predictButton">Predict</string>
     <string name="dateError">Please enter birth date!</string>
     <string name="backButton">Back</string>
+    <string name="predictionHeader">Prediction</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="dowLabel">Your were born on a</string>
 </resources>
