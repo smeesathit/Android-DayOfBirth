@@ -5,4 +5,5 @@
     <string name="dateLabel">วันเดือนปีเกิด</string>
     <string name="predictButton">ทำนาย</string>
     <string name="dateError">กรุณากรอกวันเดือนปีเกิด!</string>
+    <string name="backButton">กลับ</string>
 </resources>

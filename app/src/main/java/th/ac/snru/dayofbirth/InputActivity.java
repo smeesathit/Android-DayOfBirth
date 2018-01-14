@@ -1,5 +1,6 @@
 package th.ac.snru.dayofbirth;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -27,7 +28,17 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
         if (dateEditText.getText().toString().trim().equals("")) {
             Toast.makeText(getBaseContext(), R.string.dateError, Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(getBaseContext(), "Birth day: " + dateEditText.getText().toString(), Toast.LENGTH_SHORT).show();
+            // Toast.makeText(getBaseContext(), "Birth day: " + dateEditText.getText().toString(), Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getBaseContext(), ResultActivity.class);
+
+            // Set data
+            String bDate;
+
+            bDate = dateEditText.getText().toString();
+            intent.putExtra("date", bDate);
+
+            // open another Activity
+            startActivity(intent);
         }
 
     } // End onClick
