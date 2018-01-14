@@ -40,7 +40,37 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
 //        Toast.makeText(getBaseContext(), message, Toast.LENGTH_LONG).show();
             Calendar calendar = Calendar.getInstance();
             calendar.setTime(date);
+            int dayOfBirth;
+            dayOfBirth = calendar.get(Calendar.DAY_OF_WEEK);
+            TextView predictionText = (TextView) findViewById(R.id.predictionText);
 
+            switch (dayOfBirth) {
+                // SUNDAY = 1, MONDAY = 2 , ...
+                case Calendar.SUNDAY :
+                    predictionText.setText("SUNDAY");
+                    break;
+                case Calendar.MONDAY :
+                    predictionText.setText("MONDAY");
+                    break;
+                case Calendar.TUESDAY :
+                    predictionText.setText("TUESDAY");
+                    break;
+                case Calendar.WEDNESDAY :
+                    predictionText.setText("WEDNESDAY");
+                    break;
+                case Calendar.THURSDAY :
+                    predictionText.setText("THURSDAY");
+                    break;
+                case Calendar.FRIDAY :
+                    predictionText.setText("FRIDAY");
+                    break;
+                case Calendar.SATURDAY :
+                    predictionText.setText("SATURDAY");
+                    break;
+            }
+
+//              TextView predictionText = (TextView) findViewById(R.id.predictionText);
+//            predictionText.setText(Integer.toString(dayOfBirth));
 
         } catch (ParseException e) {
            // e.printStackTrace();

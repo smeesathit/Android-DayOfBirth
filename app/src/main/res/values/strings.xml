@@ -6,7 +6,33 @@
     <string name="dateError">Please enter birth date!</string>
     <string name="backButton">Back</string>
     <string name="predictionHeader">Prediction</string>
-    <string name="monday">Monday</string>
-    <string name="tuesday">Tuesday</string>
+    <string name="monday">
+        You have a good memory; you are soft spoken, but you are also very whimsical.
+You are very sensitive and emotional, and are prone to get nervous easily.
+    </string>
+    <string name="tuesday">
+        You are very active, lively and have a vivacious demeanor. You have warrior-like qualities.
+You are brave and serious in your work, and will always have people to help you out.
+    </string>
+    <string name="wednesday">
+        You are quite witty and have a mind curved specially for business.
+You are not very organized in your work and have a cluttered thought process as well.
+    </string>
+    <string name="thursday">
+        You are wise, optimistic and highly understanding; you are respected a lot and attract plenty of attention wherever you go.
+You have leadership qualities and are likely to end up in high positions wherever you work and in society as well.
+    </string>
+    <string name="friday">
+        You are the harbinger of peace, love, beauty and pleasure. The creative fields like music, painting, artistry and acting attract you a lot.
+You are generally happy-go-lucky but sensitive when it comes to relationships. You do not take heartbreaks well and if anything or anyone makes you sad, you mourn over it for too long.
+    </string>
+    <string name="saturday">
+        You are generally serious and have a good sense of responsibility which makes you a very trusted person.
+You are prone to worrying too much and get sad often suddenly by recalling past events.
+    </string>
+    <string name="sunday">
+        You have a positive attitude towards life and are generous in nature. You are also very trustworthy.
+You are most likely to be an introvert and have very few friends. You are very suspicious and do not trust others much.
+    </string>
     <string name="dowLabel">Your were born on a</string>
 </resources>
