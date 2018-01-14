@@ -17,8 +17,8 @@ public class InputActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_input);
 
-        dateEditText = (EditText) findViewById(R.id.dateEditText);
-        predictButton = (Button) findViewById(R.id.predictButton);
+        dateEditText = findViewById(R.id.dateEditText);
+        predictButton = findViewById(R.id.predictButton);
         predictButton.setOnClickListener(this);
 
     } // End onCreate

@@ -32,8 +32,7 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
         try {
             Date date = sdf.parse(dateString);
             SimpleDateFormat df = new SimpleDateFormat("EEEE");
-            TextView dowLabel = (TextView) findViewById(R.id.dowLabel);
-            TextView dowText = (TextView) findViewById(R.id.dowText);
+            TextView dowText = findViewById(R.id.dowText);
 
             dowText.setText(df.format(date));
 //        String message = "converted date:" +date.toString();
@@ -42,7 +41,7 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
             calendar.setTime(date);
             int dayOfBirth;
             dayOfBirth = calendar.get(Calendar.DAY_OF_WEEK);
-            TextView predictionText = (TextView) findViewById(R.id.predictionText);
+            TextView predictionText = findViewById(R.id.predictionText);
 
             switch (dayOfBirth) {
                 // SUNDAY = 1, MONDAY = 2 , ...
@@ -96,7 +95,7 @@ public class ResultActivity extends AppCompatActivity implements View.OnClickLis
             calendar.setTime(date);
 
 */
-        Button backButton = (Button)findViewById(R.id.backButton);
+        Button backButton = findViewById(R.id.backButton);
         backButton.setOnClickListener(this);
     }// End onCreate
 
